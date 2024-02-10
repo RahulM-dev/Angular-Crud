@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angular 17 Crud Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Angular 17 Crud Application</h1>
+    <div class="d-flex justify-content-end mt-3">
+      <a href="#" routerLink="/post/create" class="btn btn-success">Create Post</a>
+    </div>
+
+    <div class="table-responsive mt-3">
+      <table class="table table-striped table-rounded">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Post</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let post of posts">
+            <td>{{post.id}}</td>
+            <td>{{post.title}}</td>
+            <td>{{post.body}}</td>
+            <td>
+              <div class="btn-group" role="group" aria-label="Post Actions">
+                <a href="#" [routerLink]="['/post/view/', post.id]" class="btn btn-info">View</a>
+                <a href="#" [routerLink]="['/post/edit/', post.id]" class="btn btn-primary">Edit</a>
+                <button class="btn btn-danger" type="button" (click)="deletePost(post.id)">Delete</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

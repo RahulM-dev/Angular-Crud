@@ -1,0 +1,10 @@
+body {
+    background-color: #006e9d;
+    padding-bottom: 10px;
+    color: aliceblue;
+  }
+
+  .table-rounded {
+    border-radius: 7px;
+    overflow: hidden;
+  }

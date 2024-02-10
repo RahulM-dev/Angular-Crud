@@ -1,0 +1,37 @@
+<body>
+    
+
+<div class="container" style="padding-top: 10vh;">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col text-end mb-3">
+            <a href="#" class="btn btn-warning" [routerLink]="['/post/index']" routerLinkActive="router-link-active" >Back</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title text-center">Create New Post</h1>
+            <form [formGroup]="addPostForm" (ngSubmit)="submitForm()">
+              <div class="mb-3">
+                <label for="title" class="form-label"><strong>Title:</strong></label>
+                <input type="text" class="form-control" id="title" placeholder="Enter title" formControlName="title">
+                <div *ngIf="addPostForm.get('title')?.hasError('required') && addPostForm.get('title')?.touched" class="alert alert-danger" style="margin: 1vh 0; ">Comment title is
+                    required.</div>
+              </div>
+              <div class="mb-3">
+                <label for="body" class="form-label"><strong>Body:</strong></label>
+                <textarea class="form-control" id="body" rows="2.5" placeholder="Enter body" formControlName="body"></textarea>
+                <div *ngIf="addPostForm.get('body')?.hasError('required') && addPostForm.get('body')?.touched" class="alert alert-danger" style="margin: 1vh 0; ">Post Body is
+                    required.</div>
+              </div>
+              <div class="d-grid gap-2 mb-3">
+                <button type="submit" class="btn btn-primary" [disabled]="!addPostForm.valid">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

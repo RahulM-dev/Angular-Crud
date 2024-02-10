@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Details</title>
+  <style>
+    /* Set a fixed width for the container */
+    .container {
+      width: 50vw; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the container */
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="padding-top: 50px;">
+    <div class="card mt-5" >
+      <div class="card-header">
+        <h2 class="card-title text-center">Post Details</h2>
+      </div>
+      <div class="card-body">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input type="text" class="form-control" id="title" value="{{post.title}}" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="body" class="form-label">Body</label>
+          <textarea class="form-control" id="body" rows="5" disabled>{{post.body}}</textarea>
+        </div>
+      </div>
+      <div class="card-footer text-end">
+        <a href="#" [routerLink]="['/post/index']" class="btn btn-warning">Back</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

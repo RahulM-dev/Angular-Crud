@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "ut voluptatem illum ea doloribus itaque eos",
+      "body": "voluptates quo voluptatem facilis iure occaecati vel assumenda rerum officia et illum perspiciatis ab deleniti laudantium repellat ad ut et autem reprehenderit"
+    },
+    {
+      "id": "2",
+      "title": "qui est esse",
+      "body": "Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph."
+    },
+    {
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iurevoluptatem occaecati omnis eligendi aut advoluptatem doloribus vel accusantium quis pariaturmolestiae porro eius odio et labore ",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "eum et est occaecati",
+      "body": "ullam et saepe reiciendis voluptatem adipiscisit amet autem assumenda provident rerum culpaquis hic commodi nesciunt rem tenetur doloremque ipsam iurequis sunt voluptatem rerum illo velit"
+    },
+    {
+      "id": "5",
+      "title": "nesciunt quas odio",
+      "body": "repudiandae veniam quaerat sunt sedalias aut fugiat sit autem sed estvoluptatem omnis possimus esse voluptatibus quisest aut tenetur dolor neque"
+    },
+    {
+      "id": "6",
+      "title": "dolorem eum magni eos aperiam quia",
+      "body": "ut aspernatur corporis harum nihil quis provident sequimollitia nobis aliquid molestiaeperspiciatis et ea nemo ab reprehenderit accusantium quasvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+      "id": "7",
+      "title": "magnam facilis autem",
+      "body": "dolore placeat quibusdam ea quo vitaemagni quis enim qui quis quo nemo aut saepequidem repellat excepturi ut quiasunt ut sequi eos ea sed quas"
+    },
+    {
+      "id": "8",
+      "title": "dolorem dolore est ipsam",
+      "body": "dignissimos aperiam dolorem qui eumfacilis quibusdam animi sint suscipit qui sint possimus cumquaerat magni maiores excepturiipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+      "id": "9",
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "body": "consectetur animi nesciunt iure doloreenim quia adveniam autem ut quam aut nobiset est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+      "id": "10",
+      "title": "optio molestias id quia eum",
+      "body": "quo et expedita modi cum officia vel magnidoloribus qui repudiandaevero nisi sitquos veniam quod sed accusamus veritatis error"
+    },
+    {
+      "id": "11",
+      "title": "et ea vero quia laudantium autem",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibusaccusamus in eum beatae sitvel qui neque voluptates ut commodi qui inciduntut animi commodi"
+    },
+    {
+      "id": "12",
+      "title": "in quibusdam tempore odit est dolorem",
+      "body": "itaque id aut magnampraesentium quia et ea odit et ea voluptas etsapiente quia nihil amet occaecati quia id voluptatemincidunt ea est distinctio odio"
+    },
+    {
+      "id": "13",
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremqueiste corrupti reiciendis voluptatem eius rerumsit cumque quod eligendi laborum minima"
+    },
+    {
+      "id": "14",
+      "title": "voluptatem eligendi optio",
+      "body": "fuga et accusamus dolorum perferendis illo voluptasnon doloremque neque faceread qui dolorum molestiae beataesed aut voluptas totam sit illum"
+    },
+    {
+      "title": "eveniet quod temporibus",
+      "body": "Simply put, story content is content presented through the story format. Essentially, story content can entail any type of content that you deem fit. Written content, interactive content, videos, audio or animations. All this can be a part of a single instance of story content.",
+      "id": "15"
+    },
+    {
+      "id": "16",
+      "title": "suscipit nam nisi quo aperiam aut",
+      "body": "ut ex quistemporibus perspiciatis quisquam vel maiores accusantium ipsamut voluptatem quisquam aliquid maioresdoloribus aut velit molestiae ipsa"
+    },
+    {
+      "id": "17",
+      "title": "eos voluptas et aut odit natus earum",
+      "body": "reprehenderit accusantium ut quam in voluptatemrecusandae officia nihil qui eos amet quam magnam autdoloremque est offcia soluta nihil totam eligendi quo"
+    },
+    {
+      "id": "18",
+      "title": "hic molestiae et fuga ea maxime quod",
+      "body": "nihil velit earum ipsa voluptas cumque molestiae nihilad earum nemo voluptatem ut mollitia erroripsum laudantium et voluptatem ea quasi aut dolore voluptatem"
+    },
+    {
+      "title": "autem totam necessitatibus sit sunt minima aut quis",
+      "body": "Luckily, creating story content is easier than ever. You can simply create a social media profile and use their simple interface to create stories. While this can yield you some decent traffic, social media stories tend to be limited.",
+      "id": "19"
+    },
+    {
+      "id": "20",
+      "title": "ullam nobis libero sapiente ad optio sint",
+      "body": "consequatur quia voluptas sit aspernatur aut odit aut fugitaut quia consequuntur magni dolors eos qui qui quo quisquam voluptatamuta voluptatem ullam enim etconsequuntur quia voluptas sit aspernatur aut odit aut fugit"
+    },
+    {
+      "title": "About Product",
+      "body": "The product is not good. The quality can be improved. So take care about it.",
+      "id": "1212"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
